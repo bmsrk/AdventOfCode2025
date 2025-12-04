@@ -60,7 +60,7 @@ namespace AdventOfCode2025
         {
             var str = number.ToString();
             if (str.Length % 2 != 0)
-                return true; // odd-length numbers are valid
+                return true;
 
             var halfLength = str.Length / 2;
             var firstHalf = str.Substring(0, halfLength);
@@ -72,7 +72,7 @@ namespace AdventOfCode2025
         public static bool IsInvalidPart2(long number)
         {
             string s = number.ToString();
-            return Regex.IsMatch(s, @"^(\d+)\1+$"); // returns true if number is invalid
+            return Regex.IsMatch(s, @"^(\d+)\1+$");
         }
 
         private class InputData

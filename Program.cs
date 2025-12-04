@@ -10,4 +10,8 @@ var day2 = new AdventOfCode2025.Day2();
 day2.Part1();
 day2.Part2();
 
+var day3 = new AdventOfCode2025.Day3();
+day3.Part1();
+day3.Part2();
+
 Console.WriteLine("End of Program");
